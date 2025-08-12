@@ -15,7 +15,7 @@ hs_err_pid*
 replay_pid*
 
 # Ignore application.properties (contains secrets)
-backend/src/main/resources/application.properties
+BluegrassMartBackend/src/main/resources/application.properties
 
 # Maven Wrapper
 .mvn/wrapper/maven-wrapper.jar
@@ -53,10 +53,13 @@ mvnw.cmd
 # VS Code
 .vscode/
 
+# Eclipse workspace metadata
+.metadata/
+
 # ------------------------------
 # Build directories inside source
 # ------------------------------
-!**/src/main/**/target/
-!**/src/test/**/target/
-!**/src/main/**/build/
-!**/src/test/**/build/
+**/src/main/**/target/
+**/src/test/**/target/
+**/src/main/**/build/
+**/src/test/**/build/
