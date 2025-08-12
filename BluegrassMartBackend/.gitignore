@@ -1,0 +1,62 @@
+# ------------------------------
+# Help file
+# ------------------------------
+HELP.md
+
+# ------------------------------
+# Java / Spring Boot
+# ------------------------------
+target/
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+replay_pid*
+
+# Ignore application.properties (contains secrets)
+backend/src/main/resources/application.properties
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+mvnw
+mvnw.cmd
+
+# Logs
+*.log
+
+# ------------------------------
+# IDE specific
+# ------------------------------
+# STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA
+.idea
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# ------------------------------
+# Build directories inside source
+# ------------------------------
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
